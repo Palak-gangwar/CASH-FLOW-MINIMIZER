@@ -103,7 +103,7 @@ void printAns(vector<vector<pair<int,string>>> ansGraph, int numBanks,bank input
             ansGraph[j][i].first = 0;
         }
     }
-    cout<<"\n";
+    cout<< endl;
 }
 
 void minimizeCashFlow(int numBanks,bank input[],unordered_map<string,int>& indexOf,int numTransactions,vector<vector<int>>& graph,int maxNumTypes){
